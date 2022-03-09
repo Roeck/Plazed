@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-  <title>Exceptional Realty Group - Luxury Homes - Contact</title>
+  <title>Plazed Group - Luxury Homes - Contact</title>
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.0/normalize.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
@@ -21,8 +21,8 @@
     <header class="medium-fade shadow">
       <div class="wrapper">
         <div id="logo">
-          <h1>Exceptional Realty Group</h1>
-          <h2>Exceptional Realty Group</h2>
+          <h1>Plazed Group</h1>
+          <h2>Plazed Group</h2>
         </div>
       </div><!-- .wrapper -->
       <div id="navbar" class="light-fade">
@@ -64,12 +64,12 @@
       <div class="col-1 first border-right">
         <h3>Contact</h3>
         <p>
-          email: <a href="mailto:info@exceptionalrealty.com">info@exceptionalrealty.com</a><br>
+          email: <a href="mailto:info@plazed.com">info@plazed.com</a><br>
           phone: +1 710 555 1234
         </p>
         <h3>Correspondence</h3>
         <address>
-          Exceptional Realty<br>
+          Plazed<br>
           P.O. Box 5555<br>
           Brooklyn, NY 11201
         </address>
@@ -96,7 +96,15 @@
   </section>
 
   <footer>
-    &copy; 2014 Exceptional Realty. All Rights Reserved.
+     Plazed &copy;
+    <span id="spanDate"></span>
+        <script type="text/javascript">
+          let months = ['January','February','March','April','May','June','July',
+            'August','September','October','November','December'];
+          let tomorrow = new Date();
+          tomorrow.setTime(tomorrow.getTime()+(1000*3600*24));
+          document.getElementById("spanDate").innerHTML=months[tomorrow.getMonth()]+"  "+tomorrow.getFullYear();
+        </script>- All Rights Reserved
   </footer>
 
 </body>
