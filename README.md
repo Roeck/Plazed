@@ -1,9 +1,5 @@
-Exceptional Realty Group Website
----
-# Description
+<h3>Real Estate website</h3>
+<h4>My first front end project, built with HTML and CSS.</h4>
 
-This is an example site for the intro of Front-end Web Development Course at the Flatiron School.
 
-# Contact
 
-email: rons9n@gmail.com
